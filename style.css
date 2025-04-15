@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins';
+    background-color:  hsl(0, 0%, 86%);
+}
+/* for ( Chrome, Safari, Edge, Opera) */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* for (Firefox) */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/* *********** section start here ************* */
+section{
+    width: 760px;
+    height: 570px;
+    background-color: white;
+    margin: 25px 0 20px 295px;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    border-bottom-right-radius: 175px;
+}
+.top{
+    display: flex;
+    gap: 28px;
+}
+.input-day{
+    margin: 55px 0 0 48px;
+}
+.input-month,.input-year{
+    margin-top: 55px;
+}
+.year-label,.month-label,.day-label{
+    font-size: 14px;
+    font-weight: bold;
+    color: hsl(0, 1%, 44%);
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+.day-input,.month-input,.year-input{
+    width: 138px;
+    height: 65px;
+    border: none;
+    outline: 0.1px solid hsl(0, 11%, 77%);
+    border-radius: 6px;
+    font-size: 28px;
+    font-weight: 800;
+    padding-left: 20px;
+    color: hsl(0, 4%, 40%);
+    margin-top: 10px;
+}
+.btn-submit{
+    background: transparent;
+    border: none;
+}
+.error-year,.error-month,.error-day{
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 8px;
+    display: none;
+}
+.middle{
+    display: flex;
+}
+.hr{
+    width: 575px;
+    margin:45px 0 0  48px;
+    height: 0.5px;
+    color: hsl(0, 11%, 77%);
+}
+.btn-submit{
+    width: 90px;
+    height: 90px;
+    background-color: hsl(259, 100%, 65%);
+    border: none;
+    border-radius: 50%;
+}
+.bottom{
+    margin: -10px 0 26px 50px;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 95px;
+    font-style: italic;
+}
+.span{
+    color: hsl(259, 100%, 65%);
+}
+/************* footer start here ***************/
+footer{
+    margin: 0 0 25px 513px;
+    font-size: 13px;
+    font-weight: bold;
+}
+footer a{
+    color: hsl(259, 100%, 65%);
+}
